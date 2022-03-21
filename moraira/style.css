@@ -1,0 +1,626 @@
+body {
+    background-color: #ae8764;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+
+}  
+
+header {
+    text-align:center;
+    padding: 2px;
+    margin:auto;
+    background-color: #f4c3a7;
+    text-shadow: 7px 5px 0px rgb(219, 213, 198);
+    font-size: 150%;
+    border: double 10px #998c72;
+    border-radius: 10px;
+    color: #86604a;
+}
+
+.vlag {
+    display: block;
+}
+
+
+.nav-list {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-shadow: 0px;
+    border: double 6px #998c72;
+    border-radius: 10px;
+    background-color: #f4c3a7;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 10px;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+
+a:link {
+	color: rgb(117, 86, 67);
+              text-decoration:none;
+}
+a:hover {
+	color: plum;
+              text-decoration:none;
+}
+a:visited {
+	color: rgb(72, 117, 214);
+              text-decoration:none;
+}
+a:active {
+	color: #072f79;
+              text-decoration:none;
+}
+
+.titel {
+    background-color: #f4c3a7;
+    border: dotted 3px #998c72;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: #86604a ;
+    text-shadow: 5px 4px 0px rgb(219, 213, 198);
+}
+
+.container {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 525px 475px 375px 375px 525px ;
+    gap: 20px;
+    grid-template-areas:
+    "i"
+    "b1"
+    "o"
+    "e"
+    "n";
+}
+
+.inleiding,
+.bwh1,
+.omgeving,
+.natuur,
+.eten{
+    background-color: #f4c3a7;
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+
+}
+
+.eten {
+    grid-area: e ;
+}
+
+.inleiding {
+    grid-area: i ;
+}
+
+.bwh1 { 
+    grid-area: b1 ;
+}
+
+.omgeving {
+    grid-area: o ;
+}
+
+.natuur {
+    grid-area: n ;
+}
+
+
+.vlag {
+    padding: 5px 50px;
+}
+
+
+
+.leuk {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 1fr 1fr 750px 750px 875px 800px 775px 775px 650px;
+    gap: 20px;
+    grid-template-areas: 
+    "w"
+    "k"
+    "t"
+    "h"
+    "c"
+    "tl"
+    "m"
+    "pk"
+    "km";
+
+}
+
+.kasteel,
+.markt,
+.toren,
+.park,
+.haven,
+.kermis,
+.calpe,
+.teulada,
+.wv2 {
+    background-color: #f4c3a7;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.wv2 {
+    grid-area: w;
+}
+
+.kasteel {
+    grid-area: k;
+}
+
+.markt{
+    grid-area: m;
+}
+
+.toren {
+    grid-area: t;
+}
+
+.park {
+    grid-area: pk;
+}
+
+.haven {
+    grid-area: h;
+}
+
+.kermis {
+    grid: km;
+}
+.calpe {
+    grid-area: c;
+}
+
+.teulada {
+    grid-area: tl;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    text-align: start;
+}
+
+.eten2 {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 400px 650px 600px 600px 500px 500px 500px 1fr;
+    gap: 20px;
+    grid-template-areas: 
+    "f"
+    "p"
+    "t"
+    "b"
+    "e"
+    "v"
+    "s"
+    "r";
+}
+
+.paella,
+.tapas,
+.vis,
+.bravas,
+.espanola,
+.sangria,
+.restaurant,
+.favo {
+    background-color: #f4c3a7;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.favo {
+    grid-area: f;
+}
+
+.paella {
+    grid-area: p;
+}
+
+.tapas {
+    grid-area: t;
+}
+
+.bravas {
+    grid-area: b;
+}
+
+.espanola {
+    grid-area: e;
+}
+
+.vis {
+    grid-area: v;
+}
+
+.restaurant {
+    grid-area: r;
+}
+
+.sangria {
+    grid-area: s;
+}
+
+.natuur1 {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 750px 775px 775px 775px 700px 775px 725px;
+    gap: 20px;
+    grid-template-areas: 
+    "z"
+    "r"
+    "g"
+    "b"
+    "p"
+    "e"
+    "n";
+}
+
+.palmen,
+.rots,
+.berg,
+.zoutmeren,
+.natuurgebied,
+.grot,
+.eiland {
+    grid-area: e;
+    background-color: #f4c3a7;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.eiland {
+    grid-area: e;
+}
+
+.palmen {
+    grid-area: p;
+}
+
+.rots {
+    grid-area: r;
+}
+
+.berg {
+    grid-area: b;
+}
+
+.zoutmeren {
+    grid-area: z;
+}
+
+.natuurgebied {
+    grid-area: n;
+}
+
+.grot {
+    grid-area: g;
+}
+
+.omgeving1 {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 625px 1fr 1150px 975px 1500px;
+    gap: 20px;
+    grid-template-areas: 
+    "i"
+    "at"
+    "c1"
+    "j"
+    "b";
+}
+
+.altea,
+.benidorm,
+.javea,
+.ild,
+.calpe1{
+    background-color: #f4c3a7;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px;
+
+}
+
+.calpe1{
+    grid-area: c1;
+}
+
+.benidorm {
+    grid-area: b;
+}
+
+.altea {
+    grid-area: at;
+}
+
+.javea {
+    grid-area: j;
+}
+
+.ild {
+    grid-area: i;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background-image: url(benitachell-min-1.jpg);
+ }
+
+    footer {
+        background-color: #9f7f6d;
+        border: dashed 3px #d1bdb4;
+        border-radius: 20px;
+    }
+
+    .eten,
+    .inleiding,
+    .bwh1,
+    .omgeving,
+    .natuur {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+    }
+
+    .wv2,
+    .kasteel,
+    .markt,
+    .toren,
+    .park,
+    .haven,
+    .kermis,
+    .calpe,
+    .teulada {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+    }
+
+    .favo,
+    .paella,
+    .tapas,
+    .bravas,
+    .espanola,
+    .vis,
+    .sangria,
+    .restaurant {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+    }
+
+    .eiland,
+    .palmen,
+    .grot,
+    .berg,
+    .rots,
+    .zoutmeren,
+    .natuurgebied {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+    }
+
+    .calpe1,
+    .benidorm,
+    .altea,
+    .javea,
+    .ild {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+    }
+
+
+    .container {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 450px 450px ;
+        grid-template-rows: 500px 525px 400px;
+        gap: 20px;
+        grid-template-areas:
+        "i o"
+        "b1 n"
+        "e ."
+        ;
+    }
+
+    .vlag {
+        display: inline;
+    }
+
+    .omgeving1 {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 525px 1fr 1100px 900px 800px; 
+        gap: 20px;
+        grid-template-areas: 
+        "i i"
+        "at at"
+        "b b"
+        "c1 c1"
+        "j j"
+    }
+
+    .eten2 {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 600px 625px 500px 500px 1fr;
+        gap: 20px;
+        grid-template-areas: 
+        "f t"
+        "p b"
+        "e v"
+        "s ."
+        "r r";
+    }
+
+    .leuk {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        grid-template-rows: 875px 775px 850px 750px;
+        gap: 20px;
+        grid-template-areas: 
+        "w w"
+        "tl t"
+        "h c"
+        "k k"
+        "m km"
+        "pk pk";
+    
+    }
+
+    .natuur1 {
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 450px 450px ;
+        grid-template-rows: 750px 770px 770px 575px;
+        gap: 20px;
+        grid-template-areas: 
+        "z r"
+        "b p"
+        "g e"
+        "n n";
+    }
+
+    form {
+        background-color: #9f7f6d;
+        padding: 10px;
+        margin: 5px 200px
+    }
+
+    header {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+        border: double 10px #582f1d ;
+        text-shadow: 7px 5px 0px #582f1d;
+    
+    }
+
+    .nav-list {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+        border: double 10px #582f1d ;
+    }
+
+    .titel {
+        background-color: #9f7f6d;
+        color: #d1bdb4;
+        border: double 10px #582f1d ;
+        text-shadow: 5px 3px 0px #582f1d;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+    body {
+        background-image: url(benitachell-min-1.jpg);
+ }
+
+    footer {
+        border-radius: 20px;
+        padding: 2px;
+        margin: 10px 110px;
+    }
+
+
+
+    .container {
+        padding: 10px 120px;
+        display: grid;
+        grid-template-columns: 450px 450px 500px;
+        grid-template-rows: 500px 400px;
+        gap: 20px;
+        grid-template-areas:
+        "i b1 n"
+        "o e ."
+        ;
+    }
+
+    .vlag {
+        display: inline;
+    }
+
+    .omgeving1 {
+        padding: 10px 120px ;
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        grid-template-rows: 525px 1fr 1100px; 
+        gap: 20px;
+        grid-template-areas: 
+        "i i i"
+        "at at b"
+        "j c1 c1"
+        
+    }
+
+    .eten2 {
+        padding: 10px 120px;
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        grid-template-rows: 400px 500px 625px 1fr;
+        gap: 20px;
+        grid-template-areas: 
+        ". f ."
+        "e v s"
+        "b t p"
+        "r r r";
+    }
+
+    .leuk {
+        padding: 10px 120px;
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        grid-template-rows: 775px 775px 850px 620px;
+        gap: 20px;
+        grid-template-areas: 
+        "w w m"
+        "tl t h"
+        "k k c"
+        "km pk pk" 
+        ;
+    
+    }
+
+    .natuur1 {
+        padding: 10px 120px;
+        display: grid;
+        grid-template-columns: 450px 450px 450px;
+        grid-template-rows: 750px 700px 770px 575px;
+        gap: 20px;
+        grid-template-areas: 
+        "z r r"
+        "b b p"
+        "g e e"
+        "n n .";
+    }
+
+}
+
+    
